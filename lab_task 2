@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <title>Online Job Application</title>
+    <Hr>
+    <h1>Personal Information</h1>
+
+    <label for="full name"> full name</label>
+    <input type="text" id="full name">
+    <br>
+<br>
+    <label for="nid"> National ID Number</label>
+    <input type="text" id="nid"><br>
+    <br>
+
+    <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+ <label for="dob"> Date of Birth</label><br>
+        <input type="date" id="dob"name="dob">
+        <br><br>
+ <label for="phone">Phone Number</label><br>
+        <input type="" id="email" name="email" required>
+        <br><br>
+<label>Gender :</label><br>
+<input type ="radio"id="male"name ="gender"value="male">
+<label for ="male">Male</label>
+
+<input type ="radio"id="female"name ="gender"value="female">
+<label for ="female">Female</label>
+<input type ="radio"id="other"name ="other"value="other">
+<label for ="other">Other</label>
+<br>
+<title>Job Information</title>
+<label for ="position applied">Position</label><br>
+<select id ="position"name="position">
+<option value="software developer"selected>software developer</option>
+<option valu="web developer"selected>web developer</option>
+<option value="network engineer"selected>network engineer</option>
+<option value="databse administator"selected>databse administator</option>
+
+<title>Experience Level</title>
+<label for ="fresher">fresher</label><br>
+<select id ="1-2 years"name="1-2 years">
+<option value="3-5 years"selected>3-5 years</option>
+<option valu="more than 5 years"selected>more than 5 years</option>
+
+<title>Skills</title>
+a.HTML
+b.CSS 
+c.JavaScript 
+d.Python 
+<title>Educational Information</title>
+<label for="highest education">highest education</label><br>
+        <input type="highest educationl" id="highest education" name="highest education" required>
+        <br><br>
+
+
+<label for="university">university</label><br>
+        <input type="university" id="university" name="university" required>
+        <br><br>
+<label for="graduation year">graduation year</label><br>
+        <input type="graduation year" id="graduation year" name="graduation year" required>
+        <br><br>
+      <title>Additional Information</title>
+<label for="cover ">"covern letter</label><br>
+        <input type="cover" id="cover" name="cover" required>
+        <br><br>
+  <input type="submit">
+
+  <input type="reset">
+</body>
+</html>
